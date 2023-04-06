@@ -13,8 +13,7 @@ on:
     branches: [ "master" ]
 
 permissions:
-  id-token: write
-  contents: read
+  contents: write
 
 jobs:
   build:
