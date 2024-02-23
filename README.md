@@ -1,3 +1,3 @@
 ## Design Patterns
 
-* [java](/tree/java)
+* [java](https://github.com/haydenk/design-patterns/tree/java)
