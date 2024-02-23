@@ -11,10 +11,7 @@ name: Java CI with Maven
 on:
   push:
     branches:
-      - master
-    paths:
-      - .github/workflows/maven.yml
-      - java/**
+      - java
 
 permissions:
   contents: write
@@ -23,9 +20,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: java
     steps:
       - uses: actions/checkout@v3
       - name: Set up JDK 19
