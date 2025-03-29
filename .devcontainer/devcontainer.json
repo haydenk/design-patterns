@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:dev-noble",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "configureZshAsDefaultShell": true
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22.14.0",
+      "installYarnUsingApt": true
+    },
+    "ghcr.io/devcontainer-community/devcontainer-features/bun.sh:1": {
+      "version": "1.2.7"
+    }
+  }
+}
