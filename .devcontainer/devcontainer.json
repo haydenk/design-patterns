@@ -10,8 +10,6 @@
       "version": "22.14.0",
       "installYarnUsingApt": true
     },
-    "ghcr.io/devcontainer-community/devcontainer-features/bun.sh:1": {
-      "version": "1.2.7"
-    }
+    "ghcr.io/devcontainer-community/devcontainer-features/bun.sh:1": {}
   }
 }
