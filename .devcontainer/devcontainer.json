@@ -6,10 +6,6 @@
     },
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "22.14.0",
-      "installYarnUsingApt": true
-    },
-    "ghcr.io/michidk/devcontainers-features/bun:1": {}
+    "ghcr.io/devcontainers/features/java:1": {}
   }
 }
